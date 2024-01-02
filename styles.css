@@ -1,0 +1,226 @@
+.topnav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: #EDF1FD;
+    overflow: hidden;
+    float: none;
+    top:50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+body{
+    background-color: #EDF1FD;
+    padding:0px;
+    margin: 0px;
+    /* mar */
+}
+nav{
+    height: 50px;
+}
+#topNavSection{
+    height: 50px;
+    background-color: #EDF1FD;
+    position: relative;
+    padding-top: 20px;
+}
+.navIcon{
+    float: left;
+    width: 55px;
+    height: 55px;
+    /* padding-bottom: 100px; */
+    padding-left: 50px;
+}
+
+.topnav a {
+    float: left;
+    color: #8C90A8;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight:600;
+
+}
+.topnav a:hover {
+    /* background-color: #ddd; */
+    color: #ec2452;
+    
+  }
+.topnav a.active {
+    /* background-color: #04AA6D; */
+    color: #c44160;
+}
+
+#welcome {
+    background-color: #EDF1FD;
+    width: 100%;
+    height: 100%;
+    flex-grow : 1;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+  
+}
+
+
+#aboutMe {
+    background-color: #ec2452;
+    width: 100%;
+    height: 100%;
+    padding-top: 130px;
+    /* padding-left: 60px; */
+    padding-bottom: 130px;
+   
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #3E4455;
+   
+     /* flex-grow : 1; */
+    display: flex;
+    /*flex-direction: row;
+    position: relative; */
+}
+    
+.imageCover{
+    width: 30%;
+    display: inline-block;
+    background-color: #EDF1FD;
+
+    /* padding-bottom: 150px; */
+}
+.greetings{
+    width: 50%;
+    float: inline-start;
+    padding-top: 170px;
+    color: #3E4455;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.aboutSocials{
+    width: 20%;
+    height: 200px;
+    background-color: #EDF1FD;
+    float: inline-start;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+input[type=button]{
+    background-color: #FD023F;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type=button]:hover{
+    background-color: #b6c8ff ;
+    color: #c44160;
+}
+.imageAbout{
+    
+    width: 350px;
+    height: 100%;
+    float: inline-start;
+    /* background-color: #EDF1FD; */
+}
+#resume{
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+#resume div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#resume h4, #projects h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    margin-bottom: 55px;
+    color: #3E4455; 
+    font-weight:800;
+}
+#resume p{
+    font-family: 'Open Sans', sans-serif;
+    color: #3E4455;     
+}
+#projects{
+    background-color: #EDF1FD ;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+
+#education{
+    margin-right: 20px;
+    /* background-color: green; */
+}
+#work-experience{
+    margin-left: 20px;
+    /* background-color: blue; */
+    /* display: block; */
+}
+
+
+
+
+#resume image {
+    width: 50px;
+    height: 50px;
+   
+    
+}
+.resumeCard{
+    margin: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* background-color: red; */
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: #EDF1FD;
+    box-shadow: 0px 0px 30px  #c6d1f1;
+    border: 1px solid #dde2eb;
+}
+
+.resumeCard p{
+    padding: 0px;
+    margin: 10px 0px;
+
+}
+.resumeCard h2,h3{
+    padding: 0px;
+    margin: 0px;
+    color: #3E4455;;
+}
+.resumeCard:hover {
+    background-color: #b6c8ff;
+  }
+.reHed{
+    color: #3E4455;;
+}
+
