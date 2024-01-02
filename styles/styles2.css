@@ -96,8 +96,8 @@ input[type=button]:hover{
 }
 #aboutMeDiv{
     display: flex;
-    width: 50%;
-    max-width: 50%;
+    width: 90%;
+    max-width: 80%;
 }
 #educationSection{
     display: flex;
@@ -132,6 +132,9 @@ section h4{
     margin-bottom: 55px;
     color: #3E4455; 
     font-weight:800;
+}
+section{
+    overflow: hidden;
 }
 section:nth-of-type(3) h4 { padding-top: 70px; }
 section:nth-of-type(3){ background-color: #EDF1FD; }
