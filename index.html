@@ -15,7 +15,7 @@
             <a class="navbar-brand" href="#">
                 <img src="images/programmer.png" alt="Bootstrap" width="35" height="35">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button style="background-color:#E3651D;"  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse justify-content-center" id="navbarNavAltMarkup">
@@ -33,14 +33,14 @@
     <section id="welcome">
         <div id="welcomeContent" >
             <div class="greetings">
-                <hr style="display: inline-flex;width: 30px; margin-right: 10px; margin-bottom: 5px;">
-                <p style="display: flex; font-family: 'Open Sans', sans-serif; font-size: large; font-weight:500;">HELLO</p><br>
+                <hr style="display: inline-flex;width: 30px; margin-right: 10px; margin-bottom: 5px;  color: whitesmoke">
+                <p style="display: flex; font-family: 'Open Sans', sans-serif; font-size: large; font-weight:500; color: white;">HELLO</p><br>
                 <div style="display: flex; flex-wrap: wrap; margin-bottom: 20px; font-family: 'Open Sans', sans-serif;  font-weight:800;font-size: 80px;">
-                    <p style="bottom: 0px; display: flex; ">I'm&nbsp;</p> <p style="margin: 0px; display: flex;color: #FD023F;">Sisonke&nbsp;</p><p style="display: flex;">Msezane</p>
+                    <p style="bottom: 0px; display: flex;  color: white ">I'm&nbsp;</p> <p style="margin: 0px; display: flex;color: #E3651D;">Sisonke&nbsp;</p><p style="display: flex; color: white">Msezane</p>
                 </div>
-                <p style="display: flex;margin-bottom: 20px; font-size: 18px;">This is Sisonke Msezane, a Computer Science graduate from Wits University, and a Systems Development student at WeThinkCode_.</p>
+                <p style="display: flex;margin-bottom: 20px; font-size: 18px; color: whitesmoke;">Computer Science graduate from Wits University, and a Systems Development student at WeThinkCode_.</p>
 
-                <input  type="button" value="DOWNLOAD CV">
+                <input class="buttons" type="button" value="DOWNLOAD CV" onclick="window.open('images/Sisonke_Msezane_CV.pdf')">
                 
             </div>
 
@@ -50,15 +50,14 @@
     </section>
     <section id="aboutMe">
         <div id="aboutMeContent" >
-          <hr style="display: inline-flex;width: 30px; margin-right: 10px; margin-bottom: 20px; border: 3px solid #3E4455; align-self: self-start;">
-          <p style="display: flex; font-family: 'Open Sans', sans-serif; font-size: 60px;color: #3E4455; font-weight:800; align-self: center;">About Me</p>
-
-            <div id="aboutMeDiv" style="display: inline; ">
-              <div class="imageAbout">
-                <img src="images/about_me_personal.png" alt="Sisonke's image">
-            </div>
-                <p style="display: inline; font-size: 18px;">
-                    I am Sisonke Msezane, a passionate Computer Science graduate from Wits University with a keen interest in software development and system development. Currently, I am pursuing further studies in System Development at WeThinkCode_, where I am honing my skills and expanding my knowledge in the Software Development field.<br> <br>
+          <div>
+            <hr style="display: inline-flex;width: 30px; margin-right: 10px; margin-bottom: 20px; border: 3px solid #3E4455; align-self: self-start;">
+            <p style="display: flex; font-family: 'Open Sans', sans-serif; font-size: 60px;color: #333333; font-weight:800; align-self: center;">About Me</p>
+          </div>
+            <div id="aboutMeDiv">
+              <img class="imageAbout" src="images/about_me_personal.png" alt="Sisonke's image">
+              <p style="font-size: 18px; max-width:600px;  padding-top: 50px;">
+                  I am Sisonke Msezane, a passionate Computer Science graduate from Wits University with a keen interest in software development and system development. Currently, I am pursuing further studies in System Development at WeThinkCode_, where I am honing my skills and expanding my knowledge in the Software Development field.<br> <br>
 
 Throughout my academic journey, I have gained a solid foundation in computer science principles, programming languages, and software engineering methodologies. I am proficient in Java and Python, having worked on various projects utilizing these languages to develop efficient and reliable solutions. I have experience in developing console-based and Web and Mobile applications.<br><br>
 
@@ -66,15 +65,15 @@ I am also well-versed in version control systems like Git, enabling seamless col
 
 My career objective is to gain a challenging entry level position as a Full Stack, Front-end or Mobile developer.
 
-                </p>
+              </p>
             </div>
         </div>
     </section>
-    <section  id="resume" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <section  id="resume" style="display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: #191919;">
         <h4>Resume</h4>
         <div class="resumeTitle">
      
-          <img style="width: 29px; height: 29px;" src="images/icons8-education-50.png" alt="Sisonke's image">
+          <img style="width: 35px; height: 35px; " src="images/education.png" alt="Sisonke's image">
           
           <h2 class="reHed">Education</h2>
         </div>
@@ -135,7 +134,7 @@ My career objective is to gain a challenging entry level position as a Full Stac
         </div>
         <div class="resumeTitle">
      
-          <img style="width: 29px; height: 29px;" src="images/icons8-work-experience-50.png" alt="Sisonke's image">
+          <img style="width: 45px; height: 45px;" src="images/work.png" alt="Sisonke's image">
           
           <h2 class="reHed">Experience</h2>
         </div>
@@ -197,12 +196,20 @@ My career objective is to gain a challenging entry level position as a Full Stac
 
         </div>
     </section>
+    <section style="background-color: #E3651D; height: 500px;" class="d-flex flex-column align-items-center">
+      <div>
+        <hr style="display: inline-flex;width: 30px; margin-right: 10px; margin-bottom: 20px; border: 3px solid #3E4455; align-self: self-start;">
+        <p style="display: flex; font-family: 'Open Sans', sans-serif; font-size: 60px;color: #333333; font-weight:800; align-self: center;">Projects</p>
+      </div>
+
+      <p>Coming soon...</p>
+    </section>
     <section id="contact">
       
       <div class="container" style=" width: fit-content; ">
         <h4>Contact Details</h4>
         <div class="d-flex flex-row">
-          <img style="width: 30px; height: 30px; color: #3E4455;" src="images/phone (1).png" alt="">
+          <img style="width: 30px; height: 30px; color: #3E4455;" src="images/phone.png" alt="">
           <p>&nbsp;&nbsp; 0766009977</p>
         </div>
         <div class="d-flex flex-row">
@@ -210,7 +217,7 @@ My career objective is to gain a challenging entry level position as a Full Stac
           <p>&nbsp;&nbsp; sisonkemondli@gmail.com</p>
         </div>
         <div class="d-flex flex-row">
-          <img style="width: 30px; height: 30px;" src="images/location.png" alt="">
+          <img style="width: 30px; height: 30px;" src="images/home-address.png" alt="">
           <p> &nbsp;&nbsp; 16114 Ibinda Street, Vosloorus 1475</p>
         </div>
       </div>
@@ -232,7 +239,7 @@ My career objective is to gain a challenging entry level position as a Full Stac
             </div>
             
           </div>
-          <button class="btn btn-primary" type="submit">Send</button>
+          <button class="buttons" class="btn btn-primary" type="submit">Send</button>
         </form>
       </div>
 
