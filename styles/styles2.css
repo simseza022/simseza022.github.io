@@ -110,24 +110,6 @@ nav{
     padding-bottom: 60px;
 
 }
-/* #education{
-    width: auto;
-    height: auto;
-    background-color: #3E4455;
-    display: flex;
-    flex-direction: row;
-}
-#education div{
-    display: inline;
-    background-color: #ec2452;color: red;
-} */
-/* #experience{
-    width: auto;
-    height: auto;
- 
-    background-color: red;
-    display: flex;
-} */
 section h4{
     font-family: 'Open Sans', sans-serif;
     font-size: 55px;
@@ -151,9 +133,8 @@ section:nth-of-type(3) h4 { padding-top: 70px; }
     color: whitesmoke;
     display: flex;
 }
-.card:hover{
-    background-color: #dfc7b9;
-}
+
+
 .card{
     background-color: whitesmoke;
 }
@@ -172,10 +153,7 @@ section:nth-of-type(3) h4 { padding-top: 70px; }
 #contact p,label{
     color: whitesmoke;
     font-size: large;
-    
 }
-#contact input[type=button]{
 
-}
 
 
